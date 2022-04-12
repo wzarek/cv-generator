@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>CV generator</title>
+</head>
+<body>
+    <header>
+        <h1><a href="#">CV generator</a></h1>
+        <nav>
+            <a href="">new CV</a>
+            <a href="">my CVs</a>
+            <a href="">contact</a>
+            <a href="">
+                <img src="" alt="">
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="cv-form">
+            <h2>Create your CV</h2>
+            <form action="">
+                <section class="default-data">
+                    <h3>your name</h3>
+                    <div class="cv-form-field">
+                        <span>name</span>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="cv-form-field">
+                        <span>surname</span>
+                        <input type="text" name="surname" id="surname" required>
+                    </div>
+                </section>
+                <section class="contact-data">
+                    <h3>contact details</h3>
+                    <div class="cv-form-field">   
+                        <span>email</span>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="cv-form-field">    
+                        <span>phone</span>
+                        <input type="number" name="phone" id="phone">
+                    </div>
+                    <div class="cv-form-field">
+                        <span>address</span>    
+                        <input type="text" name="address" id="address">
+                    </div>
+                    <div class="cv-form-field">
+                        <span>address 2</span>
+                        <input type="text" name="address2" id="address2">
+                    </div>
+                </section>
+                <section class="socials-data">
+                    <h3>socialmedia details</h3>
+                    <div class="cv-form-field">
+                        <span>your website</span>
+                        <input type="url" name="website" id="website">
+                    </div>
+                    <div class="cv-form-field">
+                        <span>github</span>
+                        <input type="text" name="github" id="github">
+                    </div>
+                    <div class="cv-form-field">
+                        <span>linkedin</span>
+                        <input type="text" name="linkedin" id="linkedin">
+                    </div>
+                </section>
+                <section class="education-data-container">
+                    <h3>education details</h3>
+                    <section class="education-data">
+                        <div class="cv-form-field">
+                            <span>school name</span>
+                            <input type="text" name="edu_name" id="edu_name">
+                        </div>
+                        <div class="cv-form-field">
+                            <span>field of study</span>
+                            <input type="text" name="edu_field" id="edu_field">
+                        </div>
+                        <div class="cv-form-field">
+                            <span>from</span>
+                            <input type="date" name="edu_from" id="edu_from">
+                        </div>
+                        <div class="cv-form-field">
+                            <span>to</span>
+                            <input type="date" name="edu_to" id="edu_to">
+                        </div>
+                        <div class="cv-form-field">
+                            <span>still learning?</span>
+                            <input type="checkbox" name="edu_still" id="edu_still">
+                        </div>
+                    </section>
+                    <button id="add-education">+</button>
+                </section>
+                <section class="employment-data-container">
+                    <h3>employment details</h3>
+                    <section class="employment-data">
+                        <div class="cv-form-field">
+                            <span>company name</span>
+                            <input type="text" name="employment_name" id="employment_name">
+                        </div>
+                        <div class="cv-form-field">
+                            <span>position</span>
+                            <input type="text" name="employment_position" id="employment_position">
+                        </div>
+                        <div class="cv-form-field">
+                            <span>desc</span>
+                            <input type="text" name="employment_desc" id="employment_desc">
+                        </div>
+                        <div class="cv-form-field">
+                            <span>from</span>
+                            <input type="date" name="employment_from" id="employment_from">
+                        </div>
+                        <div class="cv-form-field">
+                            <span>to</span>
+                            <input type="date" name="employment_to" id="employment_to">
+                        </div>
+                        <div class="cv-form-field">
+                            <span>still work there?</span>
+                            <input type="checkbox" name="employment_still" id="employment_still">
+                        </div>
+                    </section>
+                    <button id="add-employment">+</button>
+                </section>
+                <section class="skills-data-container">
+                    <h3>skills</h3>
+                    <section class="skills-data">
+                        <div class="cv-form-field">
+                            <span>skill</span>
+                            <input type="text" name="skill" id="skill">
+                        </div>
+                    </section>
+                    <button id="add-employment">+</button>
+                </section>  
+                
+                <button id="cv-create-submit">submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
