@@ -1,4 +1,5 @@
 # cv-generator
+HTML based CV's with theme and data customization with saving created CV's on user profile.
 ## frontend
 ### homepage
 - [x] simple styling
